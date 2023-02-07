@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body:['Poppins']
+        body:['Poppins'],
+        curly:['Cinzel']
       },
       visibility: ["group-hover"]
     },
