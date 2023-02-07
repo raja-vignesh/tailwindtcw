@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import FilterActions from './components/FilterActions';
 import FruitCard from './components/FruitCard';
 import Item from './components/Item';
+import NavBar from './components/Test';
 
 function App() {
   return (

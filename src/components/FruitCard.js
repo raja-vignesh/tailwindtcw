@@ -1,12 +1,12 @@
 import React from 'react'
 
-const FruitCard = () => {
+const FruitCard = ({fruit}) => {
     return (
         <div className='flex flex-col border rounded-2xl overflow-hidden shadow-md hover:shadow-2xl group relative transform hover:scale-105 duration-75'>
-            <img src={require('../images/6.jpeg')} className='w-full h-52 object-cover' />
+            <img src={require(`../images/${fruit.image}.jpeg`)} className='w-full h-52 object-cover' />
             <div className=''>
-                <span className='block font-body p-2 text-center text-gray-500'>Apple</span>
-                <span className='block font-body p-1 text-center text-gray-500' >$10</span>
+                <span className='block font-body p-2 text-center text-gray-500'>{fruit.name}</span>
+                <span className='block font-body p-1 text-center text-gray-500' >₹{fruit.price}</span>
                 <span className='block font-body  text-center uppercase text-lime-500 text-xs invisible group-hover:visible' >Add to cart</span>
             </div>
             <span className=' text-white top-3 p-1 right-3 border bg-sky-300 w-15 text-center h-7 rounded-md overflow-hidden absolute text-sm'>1% off</span>
