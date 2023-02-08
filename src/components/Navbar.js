@@ -32,13 +32,13 @@ const Navbar = () => {
                     >
                         <ul className="items-center justify-end space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className='menu border-1 border-b-4 rounded-none'>
-                                <a href="#">Fruits</a>
+                                <a href="#" className='font-body'>Fruits</a>
                             </li>
                             <li className='menu'>
-                                <a href="#">Vegetables</a>
+                                <a href="#" className='font-body'>Vegetables</a>
                             </li>
                             <li className='menu'>
-                                <a href="#">More</a>
+                                <a href="#" className='font-body'>More</a>
                             </li>
                             
                             <li className='mx-8 py-2 px-4'>
