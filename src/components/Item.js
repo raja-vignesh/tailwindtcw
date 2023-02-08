@@ -42,7 +42,7 @@ const Item = () => {
     ])
 
   return (
-    <div className='container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 my-3 px-10'>
+    <div className='container mx-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 my-3 px-10'>
         {dummy.map((fruit) => { 
           return <FruitCard key={fruit.id} fruit={fruit}/>
         })}

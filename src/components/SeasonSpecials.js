@@ -15,6 +15,12 @@ const SeasonSpecials = () => {
             image:'1',
             name:'Green Grapes',
             price:100
+          },
+          {
+            id:6,
+            image:'6',
+            name:'lemon',
+            price:150
           }
     ])
     return (
