@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className='w-full bg-white mb-8'>
             <div className='justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8'>
                 <div>
-                    <div className="flex items-center justify-between py-2 md:py-5 md:block flex-shrink-0">
+                    <div className="flex items-center justify-between py-2 md:py-5 md:block ">
                         <div>
                             <span className='font-bold text-4xl text-green-500'>Fruit </span>
                             <span className='font-thin text-3xl text-gray-500'>Shop</span>

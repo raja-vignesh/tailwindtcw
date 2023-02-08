@@ -11,7 +11,7 @@ const BottomSection = () => {
                     <span class="bg-white px-4  text-stone-500 body-font text-4xl font-curly">Find us on</span>
                 </div>
             </div>
-            <footer class="bg-white dark:bg-gray-800 w-full py-8">
+            <footer class="bg-white dark:bg-gray-800 w-4/5 mx-auto py-8">
                 <div class="max-w-screen-xl px-4 mx-auto">
                     <ul class="flex flex-wrap justify-between max-w-screen-md mx-auto text-lg font-light">
                         <li class="my-2">

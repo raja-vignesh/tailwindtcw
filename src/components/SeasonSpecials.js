@@ -27,7 +27,7 @@ const SeasonSpecials = () => {
                     <span class="bg-white px-4  text-stone-500 body-font text-4xl font-curly">Season Specials</span>
                 </div>
             </div>
-            <div className='item-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 place-content-center mx-40'>
+            <div className='item-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 place-content-center  mx-14 md:mx-24'>
                 {dummy.map((fruit) => {
                     return <FruitCard key={fruit.id} fruit={fruit} />
                 })}
